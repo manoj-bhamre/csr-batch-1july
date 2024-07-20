@@ -1,0 +1,31 @@
+table, th, td {
+    border: 3px solid rgb(189, 5, 5);
+    border-collapse: collapse;
+    background-color: rgb(170, 129, 129);
+    align-self: center;
+    padding: 1px;
+    }
+    table{
+    margin-left: 19%;
+    }
+
+    ul{
+        display: block;
+        width: 50px;
+        background-color: #69a1a1;
+        margin-left: 19%;
+        }
+        p1{
+        margin-left: 19%;
+        }
+        li a {
+            display: block;
+            width: 70px;
+            background-color: #e1d6d6;
+            list-style-type: none;
+            margin: 20;
+            padding: 8px;
+            
+            }
+        
+            

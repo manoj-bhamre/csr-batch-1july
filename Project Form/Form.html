@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<Style>
+.container{
+    text-align: center;
+            color: rgba(58, 6, 199, 0.872);
+            font-style: bold;
+            }
+
+h1{font-style: italic;
+    font-size: 250%;
+}
+
+body{
+    background-color: #7eb7bd;
+}
+
+label{
+    font-size: 120%;
+    color: rgba(170, 4, 4, 0.872);
+            font-style: italic;
+            
+    }
+
+</Style>
+</head>
+<body>
+<div class="container">
+
+    <h1>PMKVY Course registration form</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="Mobile"> Mobile number:</label><br>
+  <input type="tel" id="Mobile" name="Mobile" value="+91-"><br>
+  <label for="Email">Email ID:</label><br>
+  <input type="text" id="Email" name="Email" value=""><br>
+  <label for="Course name">Course name:</label><br>
+  <input type="text" id="Course:" name="Course" value=""><br>
+  <label for="Batch time">Batch time:</label><br>
+  <input type="text" id="Batch time:" name="Batch time" value=""><br><br>
+  <input type="submit" value="Submit a form">
+  
+<p style="color: rgb(6, 33, 166);">If you click the <mark style="color: rgb(212, 57, 5);">"Submit"</mark> button,<br> the form-data will be sent to <br> a page called "/action_page.php".</p>
+</form> 
+
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+background-color: rgba(134, 13, 227, 0.548);
+}
+p {
+    font-style: italic; color: red;
+    text-align: center;
+}
+#A {
+    color: rgb(17, 17, 184); 
+    text-align: center;
+}
+.B {color: green;
+    text-align: left;
+
+}
